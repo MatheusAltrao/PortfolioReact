@@ -19,14 +19,13 @@ const NavBar = () => {
 
 
         <div className=' w-10 md:w-15 object-cover'>
-          <img className='logo' src={logo} alt="" />
+          <img className='animate-top4 ' src={logo} alt="" />
         </div>
 
         <List onClick={showMenu} className='flex md:hidden icon text-white cursor-pointer' />
 
-        <ul className={`md:flex items-center  menu ${menu ? 'active' : ''}  `} >
+        <ul className={`md:flex items-center  menu ${menu ? 'active' : ''} animate-top6   `} >
           <div className='absolute top-0 left-0'>
-
             <X onClick={showMenu} className='icon relative top-4 left-8 text-sky-300 md:hidden' />
           </div>
 

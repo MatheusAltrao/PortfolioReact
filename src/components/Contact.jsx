@@ -61,7 +61,7 @@ const Contact = () => {
           <div className='col-span-2 max-w-[400px] mt-10 md:mt-0' data-aos="fade-right" >
             <h2 className='text-[32px] font-bold' > <span className='text-gradient' > Vamos  construir algo incrível juntos?  </span> </h2>
 
-            <p className='subtitle mt-4' >Sinta-se à vontade para entrar em contato comigo, vou ficar super feliz em conversar e trocar ideias. E se tiver qualquer dúvida, por favor, não hesite em perguntar.</p>
+            <p className='subtitle mt-4 text-[#000] opacity-70' >Sinta-se à vontade para entrar em contato comigo, vou ficar super feliz em conversar e trocar ideias. E se tiver qualquer dúvida, por favor, não hesite em perguntar.</p>
 
             <div className="divider"></div>
 
@@ -69,14 +69,14 @@ const Contact = () => {
             <h2 className='text-[32px] font-bold' > Minhas redes </h2>
 
             <div className='flex items-center gap-4 mt-2 icon'>
-              <GithubLogo />
-              <InstagramLogo />
-              <LinkedinLogo />
+              <a href="https://github.com/MatheusAltrao" target='_blank'> <GithubLogo /></a>
+              <a href="https://www.instagram.com/matheus_altrao/" target='_blank'> <InstagramLogo /></a>
+              <a href="https://www.linkedin.com/in/matheus-altrao/" target='_blank'><LinkedinLogo /></a>
             </div>
 
             <div className="divider"></div>
 
-            <p className='subtitle' >©Todos os direitos reservados 2023</p>
+            <p className='subtitle text-[#000] opacity-70' >©Todos os direitos reservados 2023</p>
           </div>
 
           <form onSubmit={handleForm} className='  col-span-2 md:col-span-1' data-aos="fade-left">

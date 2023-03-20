@@ -1,9 +1,9 @@
 import React from 'react'
 import { ArrowArcRight, ArrowRight, FileJs } from 'phosphor-react'
 
-const Card = ({ name, link, description, topics }) => {
+const Card = ({ name, link, description }) => {
   return (
-    <div className='p-4 border border-sky-300 rounded-md w-full max-w-[300px] h-[250px]' data-aos="fade-down">
+    <div className='p-4 border border-sky-300 rounded-md w-full max-w-[360px] h-[250px]' data-aos="fade-up">
 
       <div className='w-full'>
         <FileJs className='text-[28px]' />
