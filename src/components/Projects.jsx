@@ -1,3 +1,4 @@
+import { data } from 'autoprefixer'
 import React, { useState, useEffect } from 'react'
 import Card from './Card'
 
@@ -16,7 +17,10 @@ const Projects = () => {
       .then(response => response.json())
       .then(data => setRepos(data))
 
+
+
   }, [])
+
 
   return (
     <div id='projects' className='bg-[#191f3f] px-4 py-20' >
