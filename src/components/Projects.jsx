@@ -22,7 +22,7 @@ const Projects = () => {
     <div id='projects' className='bg-[#191f3f] px-4 py-20' >
 
       <div className='max-w-[1200px] mx-auto text-white ' >
-        <header className=' w-full md:flex md:flex-col md:items-center'>
+        <header className=' w-full md:flex md:flex-col md:items-center' data-aos="fade-down">
           <div>
             <h2 className='title'>Projetos</h2>
             <div className="line-2"></div>

@@ -6,7 +6,7 @@ const About = () => {
 
     <div id='about' className='max-w-[1200px] mx-auto px-4 py-20'>
 
-      <header className=' w-full  md:flex md:flex-col md:items-center'>
+      <header className=' w-full  md:flex md:flex-col md:items-center' data-aos="fade-down">
         <div >
           <h2 className='title'>Sobre</h2>
           <div className="line"></div>
@@ -14,11 +14,11 @@ const About = () => {
       </header>
 
 
-      <div className='md:flex-row md:flex flex-col justify-between mt-20 gap-4' >
+      <div className='md:flex-row md:flex flex-col justify-between mt-20 gap-4'  >
 
-        <img className='shadoww w-full h-[400px] max-w-[400px] rounded-lg' src={perfil} alt="matheusaltrao" />
+        <img className='shadoww w-full h-[400px] max-w-[400px] rounded-lg' src={perfil} alt="matheusaltrao" data-aos="fade-right" />
 
-        <div className=' w-full text-left md:mt-0 mt-7 md:max-w-[600px] '>
+        <div className=' w-full text-left md:mt-0 mt-7 md:max-w-[600px]' data-aos="fade-left" >
 
           <p className=' mb-4 text-[#3c3c3c] md:text-[22px] text-[16px]' >Sou um programador Front-end apaixonado e motivado, com experiência em várias ferramentas e tecnologias populares, como <span className='text-gradient'>ReactJs,TailwindCss, AOS</span> .
           </p>

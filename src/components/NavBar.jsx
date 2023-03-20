@@ -11,12 +11,15 @@ const NavBar = () => {
   }
 
   return (
-    <div className='w-full fixed top-2 px-4  left-0 right-0 z-10  max-w-[1200px] mx-auto'>
+    <nav className='w-full fixed top-2 px-4  left-0 right-0 z-10  max-w-[1200px] mx-auto'>
+
 
       <div className='w-full  px-4 py-2 bg-red-300 h-full  flex items-center justify-between rounded-xl glass  ' >
 
+
+
         <div className=' w-10 md:w-15 object-cover'>
-          <img src={logo} alt="" />
+          <img className='logo' src={logo} alt="" />
         </div>
 
         <List onClick={showMenu} className='flex md:hidden icon text-white cursor-pointer' />
@@ -33,8 +36,12 @@ const NavBar = () => {
           <li onClick={showMenu} className='nav text-slate-300' ><a href="#contact">Contato</a></li>
         </ul>
 
+
+
       </div>
-    </div>
+
+
+    </nav>
   )
 }
 

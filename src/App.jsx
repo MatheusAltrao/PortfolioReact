@@ -8,6 +8,11 @@ import { ArrowUp } from 'phosphor-react'
 import { useEffect, useState } from 'react'
 import Contact from './components/Contact'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init()
+
+
 
 function App() {
 
@@ -33,7 +38,7 @@ function App() {
 
 
   return (
-    <div className=''>
+    <div className='overflow-x-hidden max-w-screen'>
       <NavBar />
       <Home />
       <About />
