@@ -44,6 +44,18 @@ button {
 
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+  background: #09245e;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4f5dc2;
+  border-radius: 10px;
+  
+}
+
 .btn-1 {
   background-image: linear-gradient(45deg, #09245e, #4f5dc2, #7c17b4);
   color: #fff;
@@ -54,8 +66,11 @@ button {
   padding: 0.875rem 1rem;
   border-radius: 0.5rem;
   font-size: 1.2rem;
+  transition:all 0.5s ease;
 
+  border:1px solid #e4e4e4;
 }
+
 
 .btn-2 {
 
@@ -69,6 +84,8 @@ button {
   position: fixed;
   right: -5rem;
   bottom: 1rem;
+
+  border:1px solid #e4e4e4;
 }
 
 .btn-3 {
@@ -81,6 +98,20 @@ button {
   border-radius: 0.5rem;
   font-size: 1.2rem;
 
+  border:1px solid #e4e4e4;
+
+}
+
+
+.btn-1:hover,.btn-3:hover{
+  background: linear-gradient(45deg, #5accd3, #7c17b4);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+}
+
+.btn-2:hover{
 }
 
 .btn-2.show {
@@ -160,7 +191,6 @@ header:hover .line-2 {
   background: rgba(19, 45, 109, 0.4);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
