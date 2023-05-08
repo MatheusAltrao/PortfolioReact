@@ -22,12 +22,15 @@ const Techs = () => {
           modules={[Autoplay]}
           className="mySwiper"
         >
-          <SwiperSlide className='techs-font'>ReactJs</SwiperSlide>
-          <SwiperSlide className='techs-font'>Tailwind</SwiperSlide>
-          <SwiperSlide className='techs-font'>Ui/Ux</SwiperSlide>
           <SwiperSlide className='techs-font'>Html/Css</SwiperSlide>
           <SwiperSlide className='techs-font'>Javascript</SwiperSlide>
+          <SwiperSlide className='techs-font'>NextJs</SwiperSlide>
           <SwiperSlide className='techs-font'>Vite</SwiperSlide>
+          <SwiperSlide className='techs-font'>ReactJs</SwiperSlide>
+          <SwiperSlide className='techs-font'>Tailwind</SwiperSlide>
+          <SwiperSlide className='techs-font'>Figma</SwiperSlide>
+          <SwiperSlide className='techs-font'>Ui/Ux</SwiperSlide>
+          <SwiperSlide className='techs-font'>Motion</SwiperSlide>
         </Swiper>
       </div>
 

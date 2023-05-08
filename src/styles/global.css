@@ -181,10 +181,7 @@ button {
   transition: all 0.3s ease;
 }
 
-header:hover .line,
-header:hover .line-2 {
-  width: 100%;
-}
+
 
 
 .glass {

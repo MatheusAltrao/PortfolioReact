@@ -20,7 +20,7 @@ const About = () => {
 
         <div className=' w-full text-left md:mt-0 mt-7 md:max-w-[600px]' data-aos="fade-left" >
 
-          <p className=' mb-4 text-[#3c3c3c] md:text-[22px] text-[16px]' >Sou um programador Front-end apaixonado e motivado, com experiência em várias ferramentas e tecnologias populares, como <span className='text-gradient'>ReactJs,TailwindCss, AOS</span> .
+          <p className=' mb-4 text-[#3c3c3c] md:text-[22px] text-[16px]' >Sou um programador Front-end apaixonado e motivado, com experiência em várias ferramentas e tecnologias populares.
           </p>
 
           <p className=' mb-4 text-[#3c3c3c] md:text-[22px] text-[16px]' >Além disso, também tenho habilidades em <span className='text-gradient'> UX/UI, Ui Motion design </span> e estou sempre procurando maneiras de melhorar a experiência do usuário.
@@ -28,7 +28,7 @@ const About = () => {
 
 
 
-          <p className=' mb-4 text-[#3c3c3c] md:text-[22px] text-[16px]' >Eu estou sempre buscando novas tecnologias, ferramentas e metodologias para <span className='text-gradient' >aprimorar</span>  meu trabalho e expandir minha capacidade como desenvolvedor Front-end.</p>
+          <p className=' mb-4 text-[#3c3c3c] md:text-[22px] text-[16px]' >Busco novas tecnologias, ferramentas e metodologias para <span className='text-gradient' >aprimorar</span>  meu trabalho e expandir minha capacidade como desenvolvedor Front-end.</p>
 
           <a href="#contact" >
             <button className='btn-1' >Contato</button>
