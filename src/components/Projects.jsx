@@ -85,7 +85,7 @@ const Projects = () => {
           </div>
         </header>
 
-        <div className=" w-full  flex items-center justify-center gap-4 flex-wrap mt-20">
+        <div className=" w-full  flex items-center justify-center gap-x-4 gap-y-8 flex-wrap mt-20">
 
           {repos.map((repo, index) => (
             <Card key={index} data={repo} />

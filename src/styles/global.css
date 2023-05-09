@@ -106,6 +106,9 @@ button {
 
 }
 
+.btn-4{
+@apply  btn-2 h-10 w-10 flex items-center justify-center translate-x-0}
+
 
 .btn-1:hover,.btn-3:hover{
   background: linear-gradient(45deg, #5accd3, #7c17b4);
@@ -189,10 +192,12 @@ button {
 
 
 .glass {
-  background: rgba(19, 45, 109, 0.4);
+  background: rgba(19, 45, 109, 0.7);
   backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
 }
 
 .icon {

@@ -23,9 +23,10 @@ const Home = () => {
             <p className='md:text-[40px] text-[32px] animate-left18' >Dev <span className='text-gradient'>Front-End</span></p>
 
             <div className='flex items-center gap-4 mt-6 icon'>
-              <a href="https://github.com/MatheusAltrao" target='_blank'> <GithubLogo className='animate-bottom20' /></a>
-              <a href="https://www.instagram.com/matheus_altrao/" target='_blank'> <InstagramLogo className='animate-bottom22' /></a>
-              <a href="https://www.linkedin.com/in/matheus-altrao/" target='_blank'><LinkedinLogo className='animate-bottom24' /></a>
+              <a aria-label='link github' href="https://github.com/MatheusAltrao" target='_blank'> <GithubLogo className='animate-bottom20' /></a>
+              <a aria-label='link instagram' href="https://www.instagram.com/matheus_altrao/" target='_blank'> <InstagramLogo className='animate-bottom22' /></a>
+              <a aria-label='link linkedin' href="https://www.linkedin.com/in/matheus-altrao/" target='_blank'><LinkedinLogo className='animate-bottom24' /></a>
+
             </div>
           </div>
 

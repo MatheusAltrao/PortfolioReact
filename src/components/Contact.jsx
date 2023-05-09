@@ -69,9 +69,9 @@ const Contact = () => {
             <h2 className='text-[32px] font-bold' > Minhas redes </h2>
 
             <div className='flex items-center gap-4 mt-2 icon'>
-              <a href="https://github.com/MatheusAltrao" target='_blank'> <GithubLogo /></a>
-              <a href="https://www.instagram.com/matheus_altrao/" target='_blank'> <InstagramLogo /></a>
-              <a href="https://www.linkedin.com/in/matheus-altrao/" target='_blank'><LinkedinLogo /></a>
+              <a aria-label='link github' href="https://github.com/MatheusAltrao" target='_blank'> <GithubLogo /></a>
+              <a aria-label='link instagram' href="https://www.instagram.com/matheus_altrao/" target='_blank'> <InstagramLogo /></a>
+              <a aria-label='link linkedin' href="https://www.linkedin.com/in/matheus-altrao/" target='_blank'><LinkedinLogo /></a>
             </div>
 
             <div className="divider"></div>
