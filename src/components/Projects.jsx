@@ -33,7 +33,7 @@ const Projects = () => {
     {
       image: 'https://i.pinimg.com/originals/f8/ed/9c/f8ed9c671f09bbb1493736b2468e2e18.png',
       name: 'HooBank',
-      description: 'Landing page bem futurista, de um banco muito tecnológico ',
+      description: 'LandingPage bem futurista, de um banco muito tecnológico ',
       link: 'https://hoo-bank-theta-steel.vercel.app/'
     },
     {
@@ -46,15 +46,15 @@ const Projects = () => {
     {
       image: 'https://i.pinimg.com/originals/73/16/92/73169220c5142989fe52674650e95410.png',
       name: 'Assistência médica',
-      description: 'Landing page consultórios médicos',
+      description: 'LandingPage consultórios médicos',
       link: 'https://matheusaltrao.github.io/DoctorCare/'
     },
 
 
     {
       image: 'https://i.pinimg.com/originals/78/a1/31/78a1310cb35f082832217bbf277dc534.png',
-      name: 'Landin page',
-      description: 'Landin page com tailwindCSS',
+      name: 'LandingPage',
+      description: 'Landinpage com tailwindCSS',
       link: 'https://voice-x-lading-page.vercel.app/'
     },
 
