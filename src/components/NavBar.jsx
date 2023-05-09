@@ -14,7 +14,7 @@ const NavBar = () => {
     <nav className='w-full fixed top-2 md:px-4 px-0  left-0 right-0 z-10  max-w-[1200px] mx-auto'>
 
 
-      <div className='w-full  px-4 py-2  h-full  flex items-center justify-between rounded-md  glass  ' >
+      <div className='w-full  px-4 py-2  h-full  flex items-center justify-between lg:rounded-md  glass  ' >
 
 
         <div className=' w-12 md:w-15 object-cover'>
