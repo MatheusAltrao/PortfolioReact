@@ -20,7 +20,7 @@ body {
   max-width: 100vw;
 }
 
-h5{
+.title-card{
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -107,8 +107,11 @@ button {
 }
 
 .btn-4{
-@apply  btn-2 h-10 w-10 flex items-center justify-center translate-x-0}
+@apply btn-2 h-10 w-10 flex items-center justify-center translate-x-0 border border-transparent}
 
+.btn-4.show{
+ @apply right-6;
+}
 
 .btn-1:hover,.btn-3:hover{
   background: linear-gradient(45deg, #5accd3, #7c17b4);
@@ -119,10 +122,6 @@ button {
 }
 
 .btn-2:hover{
-}
-
-.btn-2.show {
-  right: 1.5rem;
 }
 
 .nav {

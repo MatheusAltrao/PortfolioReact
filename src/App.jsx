@@ -46,7 +46,7 @@ function App() {
       <Projects />
       <Contact />
 
-      <button onClick={backToTop} className={`${backToTopButton ? 'show' : ''}   btn-2 h-10 w-10 flex items-center justify-center translate-x-0`} ><ArrowUp className='icon' /></button>
+      <button onClick={backToTop} className={`${backToTopButton ? 'show' : ''} btn-4 `} ><ArrowUp className='icon' /></button>
 
 
     </div>
