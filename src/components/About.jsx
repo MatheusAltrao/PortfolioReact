@@ -1,5 +1,6 @@
 import React from 'react'
 import perfil from '../assets/perfil.jpeg'
+import { Img } from 'react-image';
 
 const About = () => {
   return (
@@ -16,7 +17,7 @@ const About = () => {
 
       <div className='md:flex-row md:flex flex-col justify-between mt-20 gap-4'  >
 
-        <img className='shadoww w-full h-[400px] max-w-[400px] rounded-lg' src={perfil} alt="matheusaltrao" data-aos="fade-right" />
+        <Img className='shadoww w-full h-[400px] max-w-[400px] rounded-lg' src={perfil} alt="matheusaltrao" data-aos="fade-right" />
 
         <div className=' w-full text-left md:mt-0 mt-7 md:max-w-[600px]' data-aos="fade-left" >
 

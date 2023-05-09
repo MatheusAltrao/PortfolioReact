@@ -1,6 +1,7 @@
 import React from 'react'
 import { ArrowRight } from 'phosphor-react'
-
+import { Img } from 'react-image';
+import Loading from './Loading';
 
 
 const Card = ({ data }) => {
@@ -8,7 +9,9 @@ const Card = ({ data }) => {
   return (
     <div className="max-w-[378px] h-[430px] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
 
-      <img className="rounded-t-lg h-[250px] w-full" src={image} alt={name} />
+
+      <Img className="rounded-t-lg h-[250px] w-full" src={image} alt={name}
+        loader={Loading} />
 
       <div className="p-5">
 

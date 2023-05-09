@@ -80,8 +80,8 @@ const Projects = () => {
 
         <div className=" w-full  flex items-center justify-center gap-4 flex-wrap mt-20">
 
-          {repos.map((repo) => (
-            <Card data={repo} />
+          {repos.map((repo, index) => (
+            <Card key={index} data={repo} />
           ))}
 
         </div>

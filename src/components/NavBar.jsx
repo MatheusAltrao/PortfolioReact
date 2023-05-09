@@ -1,6 +1,7 @@
 import { ClosedCaptioning, List, X } from 'phosphor-react'
 import React, { useState } from 'react'
 import logo from '../assets/logoCyan.svg'
+import { Img } from 'react-image';
 
 const NavBar = () => {
 
@@ -17,7 +18,7 @@ const NavBar = () => {
 
 
         <div className=' w-12 md:w-15 object-cover'>
-          <img className='animate-top4 ' src={logo} alt="" />
+          <Img className='animate-top4 ' src={logo} alt="Logo do Matheus" />
         </div>
 
         <List onClick={showMenu} className='flex  md:hidden text-[2rem] text-white cursor-pointer' />
