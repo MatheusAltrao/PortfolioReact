@@ -7,7 +7,7 @@ import Loading from './Loading';
 const Card = ({ data }) => {
   const { image, name, description, link, } = data
   return (
-    <div className="max-w-[378px] h-[430px] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <div className="w-[378px] h-[430px] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
 
 
       <Img className="rounded-t-lg h-[250px] w-full" src={image} alt={name}

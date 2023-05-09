@@ -1,50 +1,57 @@
 import React from 'react'
 import Card from './Card'
-
-
+import CasaVerde from '../assets/coverProjects/casaverde.png'
+import Twitter from '../assets/coverProjects/twitter.png'
+import Dashboard from '../assets/coverProjects/dashboard.png'
+import SalaoDeBeleza from '../assets/coverProjects/salaodebeleza.png'
+import GodOfWar from '../assets/coverProjects/godofwar.png'
+import HooBank from '../assets/coverProjects/hoobank.png'
+import Spotify from '../assets/coverProjects/spotify.png'
+import LandingPage from '../assets/coverProjects/landingpage.png'
+import AssistenciaMedica from '../assets/coverProjects/assistenciamedica.png'
 
 const Projects = () => {
 
   const repos = [
     {
-      image: 'https://i.pinimg.com/originals/01/e1/1d/01e11d62a8981b4d9cc2a8d2ae040d02.png',
+      image: Spotify,
       name: 'Spotify',
       description: 'Clone do aplicativo de música Spotify, mas apenas em desktops ',
       link: 'https://ui-spotify-ten.vercel.app/'
     },
     {
-      image: 'https://camo.githubusercontent.com/072ed5d7ef494f332c0a8ec2218264f35f46f00b9f442cf619d671c618a93771/68747470733a2f2f692e70696e696d672e636f6d2f6f726967696e616c732f30342f63382f61332f30346338613339333833393337386634366561383033373664366464386139372e706e67',
+      image: CasaVerde,
       name: 'CasaVerde',
       description: 'Um ecommerce de uma floricultura com um design moderno',
       link: 'https://casa-verde-beige.vercel.app/'
     },
     {
-      image: 'https://camo.githubusercontent.com/7218d33b05b269d73fb38a242302a5343a6032b19d9a4fe404ccec50a5e73f00/68747470733a2f2f692e70696e696d672e636f6d2f6f726967696e616c732f36332f63382f62352f36336338623566656562303961363630366238633563633165303635616332372e706e67',
+      image: Twitter,
       name: 'Twitter',
       description: 'Clonando a interface do twitter e algunas funcionalidades',
       link: 'https://ui-twitter-two.vercel.app/'
     },
     {
-      image: 'https://camo.githubusercontent.com/35dfd856e2f58791c25ba9c853949a1547b93bb3db63dda365a1226c5d17ed18/68747470733a2f2f692e70696e696d672e636f6d2f6f726967696e616c732f66322f33322f35352f66323332353532643763393132316262386238353964643766363036613766612e706e67',
+      image: Dashboard,
       name: 'Dashboard',
       description: 'Uma dashboard para visualizações de compras',
       link: 'https://dashboard-3rsk.vercel.app/'
     },
     {
-      image: 'https://i.pinimg.com/originals/f8/ed/9c/f8ed9c671f09bbb1493736b2468e2e18.png',
+      image: HooBank,
       name: 'HooBank',
       description: 'LandingPage bem futurista, de um banco muito tecnológico ',
       link: 'https://hoo-bank-theta-steel.vercel.app/'
     },
     {
-      image: 'https://images.unsplash.com/photo-1562322140-8baeececf3df?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGFpcmRyZXNzZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+      image: SalaoDeBeleza,
       name: 'Salão de beleza',
       description: 'Saúde natural para os seus cabelos e dicas de tratamentos',
       link: 'https://matheusaltrao.github.io/Beautysalon./'
     },
 
     {
-      image: 'https://i.pinimg.com/originals/73/16/92/73169220c5142989fe52674650e95410.png',
+      image: AssistenciaMedica,
       name: 'Assistência médica',
       description: 'LandingPage consultórios médicos',
       link: 'https://matheusaltrao.github.io/DoctorCare/'
@@ -52,14 +59,14 @@ const Projects = () => {
 
 
     {
-      image: 'https://i.pinimg.com/originals/78/a1/31/78a1310cb35f082832217bbf277dc534.png',
+      image: LandingPage,
       name: 'LandingPage',
       description: 'Landinpage com tailwindCSS',
       link: 'https://voice-x-lading-page.vercel.app/'
     },
 
     {
-      image: 'https://assets.nuuvem.com/image/upload/t_product_sharing_banner/v1/products/61716faa61eca53a843588af/sharing_images/lcwz6ohd1c3iurp3jtwo.jpg',
+      image: GodOfWar,
       name: 'God of War Ragnarök',
       description: 'Jogo de ps4 God of War Ragnarök',
       link: 'https://matheusaltrao.github.io/GodOfWar/'
