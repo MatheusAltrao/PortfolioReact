@@ -22,10 +22,10 @@ const NavBar = () => {
         </div>
 
         <ul className=' hidden md:flex items-center justify-center gap-4' >
-          <li onClick={showMenu} className='nav text-slate-300' ><a href="#home">Início</a></li>
-          <li onClick={showMenu} className='nav text-slate-300' ><a href="#about">Sobre</a></li>
-          <li onClick={showMenu} className='nav text-slate-300' ><a href="#projects">Projetos</a></li>
-          <li onClick={showMenu} className='nav text-slate-300' ><a href="#contact">Contato</a></li>
+          <li className='nav text-slate-300' ><a href="#home">Início</a></li>
+          <li className='nav text-slate-300' ><a href="#about">Sobre</a></li>
+          <li className='nav text-slate-300' ><a href="#projects">Projetos</a></li>
+          <li className='nav text-slate-300' ><a href="#contact">Contato</a></li>
         </ul>
 
         <div className=' md:hidden flex items-center justify-center' >
@@ -33,19 +33,23 @@ const NavBar = () => {
         </div>
 
 
-        <ul className={`fixed top-[-10px] ${menu ? 'left-[40%] opacity-100' : 'left-[100%] opacity-0 '}  bg-[#0B2254] h-[102vh] w-screen flex items-start 
-        justify-center flex-col text-[32px] gap-4 pl-4 border border-slate-500 transition-all duration-150 z-10`} >
+        <div className={`fixed top-[-10px] ${menu ? 'left-[40%] opacity-100 z-10 w-screen pl-4 border  ' : 'left-[100%] opacity-100 w-0'}  bg-[#0B2254] h-[102vh]  border-slate-500 transition-all duration-150 flex items-start justify-start overflow-hidden   `} >
 
-          <li className='absolute top-4 left-4' >
-            <button onClick={showMenu} >  <X size={28} color='#fff' /> </button>
-          </li>
 
-          <li onClick={showMenu} className='nav-mobile text-slate-300' ><a href="#home">Início</a></li>
-          <li onClick={showMenu} className='nav-mobile text-slate-300' ><a href="#about">Sobre</a></li>
-          <li onClick={showMenu} className='nav-mobile text-slate-300' ><a href="#projects">Projetos</a></li>
-          <li onClick={showMenu} className='nav-mobile text-slate-300' ><a href="#contact">Contato</a></li>
+          <ul className={`  flex items-start justify-center flex-col text-[32px] gap-4  h-full`} >
 
-        </ul>
+            <li className='absolute top-4 left-4' >
+              <button onClick={showMenu} >  <X size={28} color='#fff' /> </button>
+            </li>
+
+            <li onClick={showMenu} className='nav-mobile text-slate-300' ><a href="#home">Início</a></li>
+            <li onClick={showMenu} className='nav-mobile text-slate-300' ><a href="#about">Sobre</a></li>
+            <li onClick={showMenu} className='nav-mobile text-slate-300' ><a href="#projects">Projetos</a></li>
+            <li onClick={showMenu} className='nav-mobile text-slate-300' ><a href="#contact">Contato</a></li>
+
+          </ul>
+
+        </div>
 
 
 

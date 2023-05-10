@@ -20,7 +20,7 @@ const Home = () => {
           <div className='flex-col text-white '>
             <h2 className='md:text-[27px] text-[22px] animate-left14' >Ola mundo, meu nome é</h2>
             <h1 className='md:text-[72px] text-[40px] font-bold animate-left16' >Matheus Altrão</h1>
-            <p className='md:text-[40px] text-[32px] animate-left18' >Dev <span className='text-gradient'>Front-End</span></p>
+            <p className='md:text-[40px] text-[32px] animate-left18' >Dev Front-End</p>
 
             <div className='flex items-center gap-4 mt-6 icon'>
               <a aria-label='link github' href="https://github.com/MatheusAltrao" target='_blank'> <GithubLogo className='animate-bottom20' /></a>
