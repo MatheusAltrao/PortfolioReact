@@ -131,6 +131,13 @@ button {
   color: #fff;
 }
 
+.nav-mobile{
+  font-size: 32px;
+  font-weight: 700;
+  font-family: var(--font-roboto-mono);
+  color: #fff;
+}
+
 
 .title {
   font-size: 32px;
@@ -194,7 +201,7 @@ button {
   background: rgba(19, 45, 109, 0.7);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+ /*  border: 1px solid rgba(255, 255, 255, 0.3); */
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 
 }

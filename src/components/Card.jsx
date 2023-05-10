@@ -7,7 +7,7 @@ import Loading from './Loading';
 const Card = ({ data }) => {
   const { image, name, description, link, } = data
   return (
-    <div className="w-[378px] h-[430px]  border-gray-700 border rounded-lg shadow bg-gray-900">
+    <div className="w-[378px] h-[430px]  border-gray-700 border rounded-lg shadow-lg shadow-black/40 bg-gray-900 " data-aos="fade-up" >
 
 
       <Img className="rounded-t-lg h-[250px] w-full" src={image} alt={name}
