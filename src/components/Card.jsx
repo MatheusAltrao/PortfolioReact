@@ -1,7 +1,7 @@
 import React from 'react'
 import { ArrowRight } from 'phosphor-react'
 import { Img } from 'react-image';
-import Loading from './Loading';
+
 
 
 const Card = ({ data }) => {
@@ -11,7 +11,7 @@ const Card = ({ data }) => {
 
 
       <Img className="rounded-t-lg h-[250px] w-full" src={image} alt={name}
-        loader={<Loading />} />
+      />
 
       <div className="p-5">
 

@@ -4,6 +4,7 @@ import Home from './components/Home'
 import About from './components/About'
 import Techs from './components/Techs'
 import Projects from './components/Projects'
+import Loading from './components/Loading'
 import { ArrowUp } from 'phosphor-react'
 import { useEffect, useState } from 'react'
 import Contact from './components/Contact'
@@ -13,10 +14,10 @@ import 'aos/dist/aos.css';
 AOS.init()
 
 
-
 function App() {
 
   const [backToTopButton, setBackToTopButton] = useState(false)
+  const [isLoading, setLoading] = useState(true)
 
   function backToTop() {
 
@@ -25,7 +26,10 @@ function App() {
     })
 
   }
+
+
   useEffect(() => {
+
     window.addEventListener('scroll', () => {
 
       if (scrollY > 500) {
@@ -37,14 +41,20 @@ function App() {
   }, [])
 
 
+
+
+
   return (
     <div className='overflow-x-hidden max-w-screen'>
+
+      <Loading setLoading={setLoading} />
       <NavBar />
       <Home />
       <About />
       <Techs />
       <Projects />
       <Contact />
+
 
       <button onClick={backToTop} className={`${backToTopButton ? 'show' : ''} btn-4 `} ><ArrowUp className='icon' /></button>
 
