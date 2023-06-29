@@ -13,18 +13,7 @@ import AssistenciaMedica from '../assets/coverProjects/assistenciamedica.png'
 const Projects = () => {
 
   const repos = [
-    /*     {
-          image: Spotify,
-          name: 'Spotify',
-          description: 'Clone do aplicativo de música Spotify, mas apenas em desktops ',
-          link: 'https://ui-spotify-ten.vercel.app/'
-        }, */
-    /*     {
-          image: CasaVerde,
-          name: 'CasaVerde',
-          description: 'Um ecommerce de uma floricultura com um design moderno',
-          link: 'https://casa-verde-beige.vercel.app/'
-        }, */
+
     {
       image: ' https://camo.githubusercontent.com/73d71abfc85e497fcd49cd41f79a28d426bcde1d8b4b52dc245ab7f52fbd006a/68747470733a2f2f736d2e69676e2e636f6d2f69676e5f62722f67616d652f6d2f6d617276656c732d73702f6d617276656c732d7370696465722d6d616e2d6d696c65732d6d6f72616c65735f647537312e6a7067',
       name: 'SpiderMan',
@@ -58,12 +47,6 @@ const Projects = () => {
     },
 
 
-    {
-      image: LandingPage,
-      name: 'LandingPage',
-      description: 'Landinpage com tailwindCSS',
-      link: 'https://voice-x-lading-page.vercel.app/'
-    },
 
     {
       image: GodOfWar,
