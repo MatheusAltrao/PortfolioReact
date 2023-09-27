@@ -18,7 +18,7 @@ const Home = () => {
           <div className='animate-top10 block h-[260px]  border-r border-sky-300  mr-4' />
 
           <div className='flex-col text-white '>
-            <h2 className='md:text-[27px] text-[22px] animate-left14' >Ola mundo, meu nome é</h2>
+            <h2 className='md:text-[27px] text-[22px] animate-left14' >Olá mundo, meu nome é</h2>
             <h1 className='md:text-[72px] text-[40px] font-bold animate-left16' >Matheus Altrão</h1>
             <p className='md:text-[40px] text-[32px] animate-left18' >Dev Front-End</p>
 
