@@ -1,14 +1,10 @@
 import React from 'react'
-import Card from './Card'
-import CasaVerde from '../assets/coverProjects/casaverde.png'
-import Twitter from '../assets/coverProjects/twitter.png'
+import AssistenciaMedica from '../assets/coverProjects/assistenciamedica.png'
 import Dashboard from '../assets/coverProjects/dashboard.png'
-import SalaoDeBeleza from '../assets/coverProjects/salaodebeleza.png'
 import GodOfWar from '../assets/coverProjects/godofwar.png'
 import HooBank from '../assets/coverProjects/hoobank.png'
-import Spotify from '../assets/coverProjects/spotify.png'
-import LandingPage from '../assets/coverProjects/landingpage.png'
-import AssistenciaMedica from '../assets/coverProjects/assistenciamedica.png'
+import SalaoDeBeleza from '../assets/coverProjects/salaodebeleza.png'
+import Card from './Card'
 
 const Projects = () => {
 
@@ -16,9 +12,15 @@ const Projects = () => {
 
     {
       image: ' https://camo.githubusercontent.com/73d71abfc85e497fcd49cd41f79a28d426bcde1d8b4b52dc245ab7f52fbd006a/68747470733a2f2f736d2e69676e2e636f6d2f69676e5f62722f67616d652f6d2f6d617276656c732d73702f6d617276656c732d7370696465722d6d616e2d6d696c65732d6d6f72616c65735f647537312e6a7067',
-      name: 'SpiderMan',
-      description: 'HomePage milesMorales',
+      name: 'SpiderMan-Miles',
+      description: 'HomePage Miles Morales',
       link: 'https://matheusaltrao.github.io/SpiderMan-Miles/'
+    },
+    {
+      image: 'https://camo.githubusercontent.com/78fabb7301941ed07bb1198f49f34136ab8d6f7757059376d684ca7668a7d182/68747470733a2f2f692e70696e696d672e636f6d2f6f726967696e616c732f64652f30332f35652f64653033356564346261623030343365333036633065373563653232316131302e706e67',
+      name: 'SpiderMan-Peter',
+      description: 'HomePage SpiderMan Peter Parker',
+      link: 'https://matheusaltrao.github.io/Spider-man/'
     },
     {
       image: Dashboard,
