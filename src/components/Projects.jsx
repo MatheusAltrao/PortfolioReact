@@ -17,7 +17,7 @@ const Projects = () => {
       link: 'https://matheusaltrao.github.io/SpiderMan-Miles/'
     },
     {
-      image: 'https://camo.githubusercontent.com/78fabb7301941ed07bb1198f49f34136ab8d6f7757059376d684ca7668a7d182/68747470733a2f2f692e70696e696d672e636f6d2f6f726967696e616c732f64652f30332f35652f64653033356564346261623030343365333036633065373563653232316131302e706e67',
+      image: 'https://image.api.playstation.com/vulcan/ap/rnd/202009/3021/B2aUYFC0qUAkNnjbTHRyhrg3.png',
       name: 'SpiderMan-Peter',
       description: 'HomePage SpiderMan Peter Parker',
       link: 'https://matheusaltrao.github.io/Spider-man/'
