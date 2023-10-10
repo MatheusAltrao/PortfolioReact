@@ -49,7 +49,6 @@ const Projects = () => {
     },
 
 
-
     {
       image: GodOfWar,
       name: 'God of War Ragnarök',
@@ -57,6 +56,40 @@ const Projects = () => {
       link: 'https://matheusaltrao.github.io/GodOfWar/'
     },
 
+    {
+      image: "https://raw.githubusercontent.com/tavareshenrique/ignite-reactjs-challenge-01-todo-list/main/src/assets/previews/preview.png",
+      name: 'Todo list',
+      description: 'Lista de tarefas, realizado no curso da Rocketseat',
+      link: 'https://todo-rocketseat-two.vercel.app/'
+    },
+
+    {
+      image: "https://github.com/MatheusAltrao/CurrencyTracker/blob/main/.github/thumbnail.jpg?raw=true",
+      name: 'Currency Tracker',
+      description: 'Dashboard para acompanhar a cotação do dólar e outras moedas',
+      link: 'https://matheusaltrao.github.io/CurrencyTracker/'
+    },
+
+    {
+      image: "https://macmagazine.com.br/wp-content/uploads/2022/02/03-pagina-iphone-13.png",
+      name: 'Clone Apple',
+      description: 'Projeto inspirado na página da Apple sobre o iPhone 13',
+      link: 'https://matheusaltrao.github.io/CloneApple/'
+    },
+
+    {
+      image: "https://i.pinimg.com/originals/6a/12/f5/6a12f5de799ac26005050eecaa4371bf.png",
+      name: 'Ignite Feed',
+      description: 'Clone do twitter feito com a RocketSeat',
+      link: 'https://rede-social-chi.vercel.app/'
+    },
+
+    {
+      image: "https://camo.githubusercontent.com/469732accabda2a6f081b981884c2b24db911b46afb67ee8c5faa55a5a756cdf/68747470733a2f2f692e70696e696d672e636f6d2f353634782f39352f30622f39642f39353062396432626266323431393661656437653736393136653334353463652e6a7067",
+      name: 'Relax Chill Code',
+      description: 'Cards de músicas para escutar e relaxar',
+      link: 'https://player-music-two.vercel.app/'
+    },
   ]
 
   return (
