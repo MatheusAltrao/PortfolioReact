@@ -1,8 +1,10 @@
 import React from 'react'
+import InteractiveTable from '../assets/coverProjects/InteractiveTable.png'
 import AssistenciaMedica from '../assets/coverProjects/assistenciamedica.png'
+import Conversation from '../assets/coverProjects/conversation.png'
 import Dashboard from '../assets/coverProjects/dashboard.png'
-import GodOfWar from '../assets/coverProjects/godofwar.png'
 import HooBank from '../assets/coverProjects/hoobank.png'
+import MatheuStore from '../assets/coverProjects/matheuStore.png'
 import SalaoDeBeleza from '../assets/coverProjects/salaodebeleza.png'
 import Card from './Card'
 
@@ -16,17 +18,30 @@ const Projects = () => {
       description: 'HomePage Miles Morales',
       link: 'https://matheusaltrao.github.io/SpiderMan-Miles/'
     },
-    {
-      image: 'https://image.api.playstation.com/vulcan/ap/rnd/202009/3021/B2aUYFC0qUAkNnjbTHRyhrg3.png',
-      name: 'SpiderMan-Peter',
-      description: 'HomePage SpiderMan Peter Parker',
-      link: 'https://matheusaltrao.github.io/Spider-man/'
-    },
+ 
     {
       image: Dashboard,
       name: 'Dashboard',
       description: 'Uma dashboard para visualizações de compras',
       link: 'https://dashboard-3rsk.vercel.app/'
+    },
+    {
+      image: InteractiveTable,
+      name: 'InteractiveTable',
+      description: 'Tabela interativa, onde vc pode mudar os status do pedido, filtragem e deletar',
+      link: 'https://interactive-table.vercel.app/'
+    },
+    {
+      image: Conversation,
+      name: 'Conversation',
+      description: 'Simulando um app de conversa, somente desktops',
+      link: 'https://conversation-dun.vercel.app/'
+    },
+    {
+      image: MatheuStore,
+      name: 'MatheuStore',
+      description: 'Desenvolvendo um carrinho de compras',
+      link: 'https://cart-products-zeta.vercel.app/'
     },
     {
       image: HooBank,
@@ -49,12 +64,7 @@ const Projects = () => {
     },
 
 
-    {
-      image: GodOfWar,
-      name: 'God of War Ragnarök',
-      description: 'Jogo de ps4 God of War Ragnarök',
-      link: 'https://matheusaltrao.github.io/GodOfWar/'
-    },
+   
 
     {
       image: "https://raw.githubusercontent.com/tavareshenrique/ignite-reactjs-challenge-01-todo-list/main/src/assets/previews/preview.png",
@@ -63,20 +73,8 @@ const Projects = () => {
       link: 'https://todo-rocketseat-two.vercel.app/'
     },
 
-    {
-      image: "https://github.com/MatheusAltrao/CurrencyTracker/blob/main/.github/thumbnail.jpg?raw=true",
-      name: 'Currency Tracker',
-      description: 'Dashboard para acompanhar a cotação do dólar e outras moedas',
-      link: 'https://matheusaltrao.github.io/CurrencyTracker/'
-    },
-
-    {
-      image: "https://macmagazine.com.br/wp-content/uploads/2022/02/03-pagina-iphone-13.png",
-      name: 'Clone Apple',
-      description: 'Projeto inspirado na página da Apple sobre o iPhone 13',
-      link: 'https://matheusaltrao.github.io/CloneApple/'
-    },
-
+ 
+  
     {
       image: "https://i.pinimg.com/originals/6a/12/f5/6a12f5de799ac26005050eecaa4371bf.png",
       name: 'Ignite Feed',
