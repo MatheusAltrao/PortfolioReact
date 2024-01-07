@@ -2,7 +2,6 @@ import React from 'react'
 import AssistenciaMedica from '../assets/coverProjects/assistenciamedica.png'
 import Conversation from '../assets/coverProjects/conversation.png'
 import Dashboard from '../assets/coverProjects/dashboard.png'
-import HooBank from '../assets/coverProjects/hoobank.png'
 import InteractiveTable from '../assets/coverProjects/interactivetable.png'
 import MatheuStore from '../assets/coverProjects/matheuStore.png'
 import SalaoDeBeleza from '../assets/coverProjects/salaodebeleza.png'
@@ -13,29 +12,32 @@ const Projects = () => {
   const repos = [
 
     {
-      image: ' https://camo.githubusercontent.com/73d71abfc85e497fcd49cd41f79a28d426bcde1d8b4b52dc245ab7f52fbd006a/68747470733a2f2f736d2e69676e2e636f6d2f69676e5f62722f67616d652f6d2f6d617276656c732d73702f6d617276656c732d7370696465722d6d616e2d6d696c65732d6d6f72616c65735f647537312e6a7067',
-      name: 'SpiderMan-Miles',
-      description: 'HomePage Miles Morales',
-      link: 'https://matheusaltrao.github.io/SpiderMan-Miles/'
+      image: 'https://i.pinimg.com/originals/ad/d3/04/add3043a92810d64512576232b67e32a.jpg',
+      name: 'TaskList',
+      description: 'Lista de tarefas com NextJs e firebase',
+      link: 'https://task-list-eta-six.vercel.app/'
     },
- 
+
     {
       image: Dashboard,
       name: 'Dashboard',
       description: 'Uma dashboard para visualizações de compras',
       link: 'https://dashboard-3rsk.vercel.app/'
     },
+    
     {
-      image: InteractiveTable,
-      name: 'InteractiveTable',
-      description: 'Tabela interativa, onde vc pode mudar os status do pedido, filtragem e deletar',
-      link: 'https://interactive-table.vercel.app/'
+      image: 'https://i.pinimg.com/originals/13/52/b3/1352b36cbf7f5db50bcc6ab2726d205e.jpg',
+      name: 'SpiderMan-Miles',
+      description: 'HomePage Miles Morales',
+      link: 'https://matheusaltrao.github.io/SpiderMan-Miles/'
     },
+ 
+   
     {
-      image: Conversation,
-      name: 'Conversation',
-      description: 'Simulando um app de conversa, somente desktops',
-      link: 'https://conversation-dun.vercel.app/'
+      image: 'https://i.pinimg.com/originals/0a/76/f8/0a76f85e5d06a16e1dadef12150596bf.png',
+      name: 'MatheusMoney',
+      description: 'Projeto para você controlar os seu gastos',
+      link: 'https://matheus-money.vercel.app/'
     },
     {
       image: MatheuStore,
@@ -43,12 +45,29 @@ const Projects = () => {
       description: 'Desenvolvendo um carrinho de compras',
       link: 'https://cart-products-zeta.vercel.app/'
     },
+
+   
+  
+  
     {
-      image: HooBank,
-      name: 'HooBank',
-      description: 'LandingPage bem futurista, de um banco muito tecnológico ',
-      link: 'https://hoo-bank-theta-steel.vercel.app/'
+      image: Conversation,
+      name: 'Conversation',
+      description: 'Simulando um app de conversa, somente desktops',
+      link: 'https://conversation-dun.vercel.app/'
     },
+    {
+      image: InteractiveTable,
+      name: 'InteractiveTable',
+      description: 'Tabela interativa, onde vc pode mudar os status do pedido, filtragem e deletar',
+      link: 'https://interactive-table.vercel.app/'
+    },
+    
+    // {
+    //   image: HooBank,
+    //   name: 'HooBank',
+    //   description: 'LandingPage bem futurista, de um banco muito tecnológico ',
+    //   link: 'https://hoo-bank-theta-steel.vercel.app/'
+    // },
     {
       image: SalaoDeBeleza,
       name: 'Salão de beleza',
